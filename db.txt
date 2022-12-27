@@ -5,13 +5,13 @@ CREATE DATABASE crud_react;
 
 USE crud_react;
 
-CREATE TABLE mahasiswa(
+CREATE TABLE mahasiswa (
     id int primary key auto_increment,
     npm varchar(8),
     nama varchar(255),
     kelas varchar(6),
     uts int,
-    uas int,
+    uas int
 );	
 
 insert into mahasiswa values (1, '50420521','GILBERD DAVID','3IA12','99','80');
